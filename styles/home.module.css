@@ -1,0 +1,175 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex: 50%;
+
+}
+
+.ascrollbtns {
+    /* move to center of screen */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex: 50%;
+
+}
+
+/* proxy Button */
+.btnGradProxies {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%)
+}
+
+.btnGradProxies {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    flex: 50%;
+}
+
+.btnGradProxies:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: black 0px 0px 10px;
+    flex: 50%;
+}
+
+
+.btnGradProxies2 {
+    background-image: linear-gradient(to right, #00ff62 0%, #76db6c 51%, #28ca22 100%)
+}
+
+.btnGradProxies2 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    flex: 50%;
+}
+
+.btnGradProxies2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: black 0px 0px 10px;
+    flex: 50%;
+}
+
+
+.btnGradProxies3 {
+    background-image: linear-gradient(to right, #adc911 0%, #c2c518 51%, #ffe600 100%)
+}
+
+.btnGradProxies3 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    flex: 50%;
+}
+
+.btnGradProxies3:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: black 0px 0px 10px;
+    flex: 50%;
+}
+
+
+.btnGradProxies4 {
+    background-image: linear-gradient(to right, #561ddb 0%, #8e18c5 51%, #b700ff 100%)
+}
+
+.btnGradProxies4 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    flex: 50%;
+}
+
+.btnGradProxies4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: black 0px 0px 10px;
+    flex: 50%;
+}
+
+/* end of proxy button */
+
+
+
+.creds {
+    font-size: 20px;
+    color: rgb(221, 205, 205);
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .Container {
+        flex-direction: column;
+    }
+}
