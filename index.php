@@ -65,7 +65,7 @@
             <p class="fw-light text-white m-0" id="whyyoulookinglmao"></p>
             <p class="fw-light text-white m-0" id="move">created by illusions#1000</p>
 
-            <button class="fw-light btn-grad "> <a href="https://beta-proxy.herokuapp.com/" target="_blank">proxy</a> </button>
+            <a href="https://beta-proxy.herokuapp.com/" target="_blank"><button class="fw-light btn-grad ">Proxy</button></a>
         </div>
 
     </div>
