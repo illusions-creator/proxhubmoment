@@ -1,0 +1,8 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    flex: 50%;
+}
+

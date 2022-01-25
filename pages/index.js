@@ -17,21 +17,21 @@ export default function Index() {
 
       <Head>
         <title>Home | ProxHub</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta name='description' content='A hub for all (still adding some) web-proxies to bypass  ' />
+
       </Head>
       <div className={Styles.tophalf} >
 
         <h1 className={Styles.title} >Prox-Hub</h1>
         <p className={Styles.creds}>made by illusions#1000 </p>
         <div className={Styles.ascrollbtns}>
-          <Button className={Styles.btnGradProxies} > Proxies </Button>
-          <Button className={Styles.btnGradProxies2}
+          <Button className={Styles.btnGradProxies}
             onClick={() => {
-              window.location.href = "/music";
+              window.location.href = "/choices";
             }}
-            disabled > Music </Button>
-          <Button className={Styles.btnGradProxies3} disabled > Games </Button>
-          <Button className={Styles.btnGradProxies4} disabled > Chatroom </Button>
+          > Proxies </Button>
+
 
 
         </div>

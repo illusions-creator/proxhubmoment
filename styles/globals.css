@@ -6,15 +6,23 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(-45deg, #2250cf, #3379c9, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #20201b, #444950, #777777, #7b8b88);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
     overflow: hidden;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 
+.Container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    
+}
 
 
 
