@@ -1,6 +1,9 @@
 {
   "name": "nextjs",
   "version": "5.0.0",
+  "engines": {
+    "node": "16.9.1"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
