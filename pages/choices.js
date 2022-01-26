@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Head from 'next/head'
 import Button from '@mui/material/Button';
 import { makeStyles } from '@mui/styles';
+import palladiumimg from '/public/images/palladium_img.png';
 export default function Index() {
     return (
         <div className='Container'>

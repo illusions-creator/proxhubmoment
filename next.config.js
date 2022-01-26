@@ -4,8 +4,8 @@ module.exports = {
   },
   rewrites: async () => [
     {
-      source: "/public/corrosion.html",
-      destination: "/pages/api/corrosionProxy.js",
+      source: "/public/palladium/index.html",
+      destination: "/pages/api/palladiumProxy.js",
     },
   ]
 }
